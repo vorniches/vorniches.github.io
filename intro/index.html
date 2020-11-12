@@ -2,14 +2,26 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Introdution to Java for testing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Introdution to Java for Testing</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Service</h1>
-  <div id="loginForm">
-    <input type="text" id="loginInput" placeholder="Enter Login/Email">
-    <input type="text" id="passwordInput" placeholder="Enter Password">
-    <button id="loginButton">Log In</button>
-  </div>
+    <div id="top">
+        <div id="logo">
+            <h1>Service</h1>
+        </div>
+    </div>
+    <div id="app">
+        <div id="loginForm">
+            <h2>Login to Service</h2>
+            <label for="loginInput">Enter Login/Email</label>
+            <input type="text" id="loginInput" placeholder="">
+            <label for="passwordInput">Enter Password</label>
+            <input type="password" id="passwordInput" placeholder="">
+            <button id="loginButton">Log In</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
