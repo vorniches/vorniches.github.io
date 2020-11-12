@@ -66,11 +66,12 @@ label {
     margin: 0;
 }
 
-button {
+#loginButton {
     width: 100%;
     margin-top: 10px;
     border: none;
-    background: linear-gradient(-20deg, rgba(0,0,0,1) 0%, rgba(243,229,245,1) 0%, rgba(206,147,216,1) 100%);
+    transition: all 0.5s ease;
+    background: rgba(206,147,216,0.5);
     padding: 10px 0;
     border-radius: 3px;
     text-transform: uppercase;
@@ -78,4 +79,11 @@ button {
     font-weight: bold;
     font-family: helvetica;
     font-size: 14px;
+}
+
+#loginButton:hover {
+    cursor: pointer;
+    transition: all 0.5s ease;
+    background: rgba(206,147,216,1);
+    color: #fff;
 }
