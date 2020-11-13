@@ -59,6 +59,12 @@ label {
 #logo {
     text-align: center;
     padding: 20px 0;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#logo:hover {
+    cursor: pointer;
 }
 
 #logo h1 {
